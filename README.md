@@ -65,6 +65,10 @@ Run **`Check_Installation.bat`** and copy the environment, ONNX providers, and v
 - The exact error and **Show Details** output when available, or the first failing lines in the launcher.
 - A short sample that reproduces the problem without private text. Redact personal paths, credentials, and signed download URLs from any logs you share.
 
+## Uninstall
+
+Close the app, double-click [Uninstall_mimo-myanmar.bat](Uninstall_mimo-myanmar.bat), and type `REMOVE` to confirm. It removes the local Python environment, CPU or GPU runtime packages, downloaded voices, and Python cache. The shared Windows Python installation and WAV files in Documents stay available. You can then delete the app folder if you no longer need the source files.
+
 ## Project files
 
 - [Start_mimo-myanmar.bat](Start_mimo-myanmar.bat) installs or repairs the local Python environment and launches mimo-myanmar.
